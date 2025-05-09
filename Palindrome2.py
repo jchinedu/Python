@@ -7,7 +7,7 @@ else:
 	second_number = int(number // 1000) % 10
 	fourth_number = int(number // 10) % 10
 	fifth_number = int(number % 10)
-if first_number == fifth_number & second_number ==fourth_number:
+if first_number == fifth_number and second_number == fourth_number:
         print("the number is palindrome")
 else:
         print("the number is not a palindrome")
