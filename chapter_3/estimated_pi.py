@@ -14,7 +14,6 @@ while True:
     pi = pi + sign * (4 / (2 * i + 1))
     print(i + 1, "     ", pi)
 
-    # Check for each level of accuracy
     if not reached_3_14 and abs(pi - 3.14) < tolerance:
         print("Reached 3.14 at term:", i + 1)
         reached_3_14 = True
