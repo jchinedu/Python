@@ -1,5 +1,5 @@
-for side1 in range(1, 21):
-    for side2 in range(side1, 21):  # side2 )
-        for hypotenuse in range(side2, 21):  
-            if side1**2 + side2**2 == hypotenuse**2:
-                print(f"({side1}, {side2}, {hypotenuse})")
+for opposite in range(1, 21):
+    for adjacent in range(opposite, 21):   
+        for hypotenuse in range(adjacent, 21):  
+            if opposite**2 + adjacent**2 == hypotenuse**2:
+                print(f"({opposite}, {adjacent}, {hypotenuse})")

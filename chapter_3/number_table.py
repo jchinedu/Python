@@ -1,4 +1,4 @@
-print(f'{"Number":>6} {"Square":>6} {"Cube":>6}')
+  print(f'{"Number":>6} {"Square":>6} {"Cube":>6}')
 
 for number in range(6):
     square = number ** 2

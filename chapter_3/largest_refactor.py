@@ -1,8 +1,9 @@
-largest = -999999999
-second_largest = -999999999
+first_num = int(input("enter a number: "))
+largest = first_num
+second_largest = -99999999999999999999999
 
-for i in range(10):
-    num = int(input(f"Enter number {i+1}: "))
+for i in range(9):
+    num = int(input(f"Enter number {i+2}: "))
     
     if num > largest:
         second_largest = largest
