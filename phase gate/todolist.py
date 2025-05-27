@@ -31,8 +31,7 @@ def add_a_task():
      return
     case 1:
      add = input('enter what you want to add')
-     task={}
-     Tasks.append(task)
+     Tasks.append(add)
      print("task added")
      wait_for_go_back()
     case _:
@@ -58,11 +57,70 @@ def view_task():
     case 0:
      return
     case 1:
-     Tasks = ([] buy_groceries [] finish_homeworks)
+     #Tasks = ['[] buy_groceries, [] finish_homeworks']
      print(Tasks)
      wait_for_go_back()
     case _:
      print("Invalid input. Please try again.")
+def mark_a_task_as_complete():
+ while True:
+  message2 = """
+===============================
+       MARK TEST AS COMPLETE
+===============================
+1  - mark tasks
+0  - Enter 0 to go back to previous menu 
+===============================
+"""
+  print(message2)
+  try:
+    number2 = int(input("Enter a number to select: "))
+  except ValueError:
+    print("Invalid input. Please enter a number.")
+    continue
+
+  match number2:
+    case 0:
+     return
+    case 1:
+     print(Tasks)
+     number = int(input('choose the task you have completed'))
+     winner = check_winner()
+     turn = "O" if turn == "X" else "X"
+     wait_for_go_back()
+    case _:
+     print("Invalid input. Please try again.")
+def Delete_a_task():
+ while True:
+  message2 = """
+===============================
+       DELETE A TASK
+===============================
+1  - delete task
+0  - Enter 0 to go back to previous menu 
+===============================
+"""
+  print(message2)
+  try:
+    number2 = int(input("Enter a number to select: "))
+  except ValueError:
+    print("Invalid input. Please enter a number.")
+    continue
+
+  match number2:
+    case 0:
+     return
+    case 1:
+     print(Tasks)
+     number = int(input('choose the task you want to delete'))
+     print(Tasks.pop(number-1))
+     print('successfully deleted')
+     wait_for_go_back()
+    case _:
+     print("Invalid input. Please try again.")
+
+
+
 
 while True:
     message = """
