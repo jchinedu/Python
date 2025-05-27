@@ -85,8 +85,6 @@ def mark_a_task_as_complete():
     case 1:
      print(Tasks)
      number = int(input('choose the task you have completed'))
-     winner = check_winner()
-     number = "x" if number == "X" else "X"
      wait_for_go_back()
     case _:
      print("Invalid input. Please try again.")
