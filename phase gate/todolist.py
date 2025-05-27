@@ -86,7 +86,7 @@ def mark_a_task_as_complete():
      print(Tasks)
      number = int(input('choose the task you have completed'))
      winner = check_winner()
-     turn = "O" if turn == "X" else "X"
+     number = "x" if number == "X" else "X"
      wait_for_go_back()
     case _:
      print("Invalid input. Please try again.")
@@ -113,8 +113,11 @@ def Delete_a_task():
     case 1:
      print(Tasks)
      number = int(input('choose the task you want to delete'))
-     print(Tasks.pop(number-1))
-     print('successfully deleted')
+     if number == 0:
+     	print('please enter a valid index number')
+     else:
+     	print(Tasks.pop(number-1))
+     	print('successfully deleted')
      wait_for_go_back()
     case _:
      print("Invalid input. Please try again.")
