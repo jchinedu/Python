@@ -13,8 +13,13 @@ def cai_multiplication():
                     print("Very good!")
                     break
                 else:
-                    print("No. Please try again.")
+                    print("wrong. P=you can do better.")
             except ValueError:
                 print("Please enter a valid integer.")
+        
+        choice = input("Do you want to continue? yes/no: ").strip().lower()
+        if choice == "no":
+            print("Thanks for practicing!")
+            break
 
 cai_multiplication()

@@ -4,6 +4,6 @@ def product(*args):
         result *= number
     return result
 #print(product(2, 3, 4))          
-print(product(5))               
-#print(product(1, 2, 3, 4, 5))   
-#print(product())                
+#print(product(5))               
+print(product(1, 2, 3, 4, 5))   
+# print(product())                
