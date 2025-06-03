@@ -6,7 +6,7 @@ count = 0
 print("Subtraction Quiz: You have  ", totalQuestions , "  questions!");
 for i in range (totalQuestions):
  num1 = random.randint(1, 50)
- num2 = random.randint(1, 50)
+ num2 = random.randint(1, 30)
  if num2 > num1:
    num2 = num1
  correctAnswer = int(num1 - num2)
