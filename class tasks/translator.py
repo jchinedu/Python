@@ -1,11 +1,11 @@
 # trying to build a translator
 def translate(phrase):
-	translate = ""
+	translation = ""
 	for letter in phrase:
 		if letter in "AEIOUaeiou":
-			translate = translate + "g"
+			translation = translation + "g"
 		else:
-			translate = translate + letter
-	return translate
+			translation = translation + letter
+	return translation
 
 print(translate(input("Enter a phrase: ")))
