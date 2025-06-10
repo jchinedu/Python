@@ -8,5 +8,4 @@ def translate(phrase):
 			translate = translate + letter
 	return translate
 
-input = print('enter a phrase: ')
-print(translate(input))
+print(translate(input("Enter a phrase: ")))
