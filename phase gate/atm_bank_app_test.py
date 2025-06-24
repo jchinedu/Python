@@ -2,8 +2,6 @@ import atm_bank_app
 from unittest import TestCase
 
 class TestBankAtmFunction(TestCase):
-	def test_that_atm__system_function_exists(self):
-		atm_bank_app.atm_system()
 	def test_that_balance_can_not_be_less_than_100(self):
 		actual = atm_bank_app.atm_system() 
 		expected = 100
