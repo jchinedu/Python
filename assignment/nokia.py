@@ -767,9 +767,9 @@ while True:
             settings()
         case 7:
             call_divert()
-        case 8:
+        case 8: 
             games()
-        case 9:
+        case 9:v
             calculator()
         case 10:
             reminders()
@@ -781,6 +781,6 @@ while True:
             sim_service()
         case 0:
             print("NOKIA....BYE!")
-            break
+            break 
         case _:
             print("Invalid input")

@@ -20,7 +20,7 @@ def guess_the_number():
 
 while True:
     guess_the_number()
-    play_again = input("Would you like to play again? (yes/no): ").strip().lower()
+    play_again = input("Would you like to play again? (yes/no): ").strip().lower()  
     if play_again != "yes":
         print("Thanks for playing!")
         break

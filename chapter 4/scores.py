@@ -4,7 +4,7 @@ student_score3 = 50
 student_score4 = 50
 student_score5 = 50
 
-scores = [50, 34, 45, 50, 25]
+scores = [50, 34,  45, 50, 25]
 cart= ['banana', 33, 'juice', 2.5,["fish","palm oil"], True]
 print(cart[4][1])
 print("we have",len(scores), "scores")

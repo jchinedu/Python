@@ -6,7 +6,7 @@ highest_students = ""
 second_highest_students = ""
 
 for i in range(num_students):
-    name = input("Enter the student's name: ")
+    name = input("Enter the student's name: ") 
     score = float(input("Enter the student's score: "))
 
     if highest_score is None or score > highest_score:

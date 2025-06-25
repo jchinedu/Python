@@ -95,7 +95,7 @@ class BankTest(TestCase):
 
 	def test_find_customer_by_name(self):
         	account.create_account("Charlie", "1112223333")
-        	result = account.find_customer("Charlie", "1112223333")
+        	result = account.find_customer("Charlie", "1112223333" )
         	self.assertEqual(result, ["Charlie", "1112223333"])
 
 	def test_find_customer_by_phone(self):

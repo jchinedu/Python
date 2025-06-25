@@ -1,0 +1,11 @@
+print('Mortgage calculator')
+Principal = int(input('Enter the principal '))
+Interest_Rate = float(input('Enter the interest rate '))
+Duration = int(input('Enter the duration  '))
+New_Duration = int((Duration * 12))
+New_Rate = float(Interest_Rate / 1200) 
+Numerator = float(New_Rate * (1 + New_Rate)**New_Duration) * (Principal)
+Denominator = float(((1 + New_Rate) ** New_Duration) - 1)
+Monthly_Payment =float((Numerator / Denominator))
+print(f" your monthly payment is: $ {Monthly_Payment:.2f }") 
+ 

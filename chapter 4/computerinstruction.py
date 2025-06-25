@@ -13,7 +13,7 @@ def cai_multiplication():
                     print("Very good!")
                     break
                 else:
-                    print("wrong. P=you can do better.")
+                    print("wrong. P=you can do better .")
             except ValueError:
                 print("Please enter a valid integer.")
         

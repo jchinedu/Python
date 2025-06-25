@@ -1,4 +1,4 @@
-k = 10
+ k = 10
 for i in range(1, 11):	
 	for star in range(i):
 		print('*', end='')

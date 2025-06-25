@@ -29,7 +29,7 @@ def cai_multiplication():
     try:
         difficulty = int(input("Enter difficulty level (1 = single-digit, 2 = two-digit): "))
     except ValueError:
-        print("Invalid input. Defaulting to level 1.")
+        print("Invalid input. Defaulting to level 1.") 
         difficulty = 1
 
     while True:
