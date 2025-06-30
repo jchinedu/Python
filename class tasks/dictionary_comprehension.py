@@ -1,8 +1,8 @@
 def convert_words_to_numbers(name):
-    result = {(letter, name.count(letter)) for letter in name}
+    result = {}
+    for word in name:
+        result[word] = result.get(word, 0) + 1
     return result
-
-
 
 name = input("enter a word: ")
 print(convert_words_to_numbers(name))
