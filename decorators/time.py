@@ -40,7 +40,8 @@ class TimeWithProperties:
         self._second = value
 
     def __str__(self):
-        return f"{self.second} {self.minute} {self.hour}"
+        return f"Time({self.second}:{self.minute}:{self.hour})"
 
 
 time1 = TimeWithProperties()
+print(time1)
