@@ -5,4 +5,5 @@ def reverse_words(text):
     for char in text:
         if char != ' ':
             word += char
-        
+        else:
+            
