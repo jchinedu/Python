@@ -8,4 +8,6 @@ def reverse_words(text):
         else:
             result += word[::-1]  
             result += ' '         
-           
+            word = ''             
+
+    
