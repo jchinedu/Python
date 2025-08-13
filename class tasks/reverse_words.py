@@ -11,4 +11,4 @@ def reverse_words(text):
             word = ''             
 
     result += word[::-1]  
-    
+    return result
