@@ -7,4 +7,5 @@ def reverse_words(text):
             word += char
         else:
             result += word[::-1]  
-            
+            result += ' '         
+           
